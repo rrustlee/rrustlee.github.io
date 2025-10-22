@@ -11,5 +11,5 @@ Hello, I’m a first-year PhD student from the [School of Computer Science](http
 
 # Education
 
-PhD Student, Computer Science and Technology, Peking University, 2025 - Present
-Bachelor of Science, Computer Science and Technology, Tianjin University, 2021 - 2025.
+* PhD Student, Computer Science and Technology, Peking University, 2025 - Present
+* Bachelor of Science, Computer Science and Technology, Tianjin University, 2021 - 2025.
