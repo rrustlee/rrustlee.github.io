@@ -1,17 +1,20 @@
 ---
 ---
 
-@comment{Add your publications here. Each entry renders automatically on the /publications/ page.
+@comment{Each entry here renders automatically on /publications/.
 Useful al-folio fields: abbr (venue badge), bibtex_show={true}, selected={true} (show on homepage),
 pdf, arxiv, code, website, preview (image in assets/img/publication_preview/).}
 
-@article{example2026,
+@article{wang2026hiddenalign,
   abbr        = {arXiv},
   bibtex_show = {true},
-  title       = {Your First Paper Title Goes Here},
-  author      = {Wang, Ziyue},
+  title       = {Hidden-Align: Aligning Hidden States of Correct Rollouts for Reinforcement Learning from Verifiable Rewards},
+  author      = {Wang, Ziyue and Yuan, Aomufei and Zhu, Yongfu and Dong, Shuai and Liu, Wenpu and Yao, Yiran and Xie, Weichu and Xu, Yuqi and Ma, Caoyuan and Shao, Wenqi and Zhang, Xiaoying and Duan, Nan and Wang, Jiaqi},
+  abstract    = {Reinforcement Learning from Verifiable Rewards (RLVR) has become the dominant approach for improving mathematical reasoning in large language models, yet current methods reduce each correct rollout to a single reward bit, ignoring the geometric structure shared among their hidden states. Investigating this structure, we find that at the anchor token (the position immediately before the answer marker), correct rollouts converge naturally because they must produce the same answer (cosine similarity ~0.84), yet each retains residual variance from its unique reasoning path. Encouraging full alignment at this point pushes the model to extract a unified ``correct decision'' representation, reducing sensitivity to which reasoning path was taken. Based on this observation, we propose Hidden-Align, an auxiliary loss function that aligns the last-layer hidden states of correct rollouts at the anchor token during RL training, with zero overhead in both training and inference. On eight mathematical reasoning benchmarks, Hidden-Align improves average pass@1 over the DAPO baseline by 3.8, 6.2, and 5.4 percentage points on Qwen3-1.7B, 4B, and 14B respectively, with consistent pass@k gains across all three scales, supported by ablations on loss type, anchor position, layer depth, and loss weight.},
   journal     = {arXiv preprint},
   year        = {2026},
-  arxiv       = {2601.00000},
+  month       = {jun},
+  arxiv       = {2606.03234},
+  html        = {https://arxiv.org/abs/2606.03234},
   selected    = {true}
 }
