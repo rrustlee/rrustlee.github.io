@@ -1,0 +1,8 @@
+github_users:
+  - rrustlee
+
+repo_description_lines_max: 2
+
+# add repos you want to showcase, e.g.
+# github_repos:
+#   - rrustlee/some-project

@@ -1,0 +1,12 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: wangziyue@tju.edu.cn # your email address
+github_username: rrustlee # your GitHub username
+# scholar_userid: # your Google Scholar ID, e.g. qc6CJjYAAAAJ
+# orcid_id: # your ORCID ID
+# linkedin_username: # your LinkedIn username
+# x_username: # your X / Twitter handle
+# cv_pdf: # path to your CV PDF file, e.g. /assets/pdf/cv.pdf
+rss_icon: true # comment this line to hide the RSS icon
+# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
